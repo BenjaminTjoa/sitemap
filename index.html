@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sitemap</title>
+<style>
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+.sitemap {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.sitemap-item {
+    display: flex;
+    align-items: flex-start;
+}
+.sitemap-link {
+    flex: 0 0 50%;
+    color: #3498db;
+    text-decoration: none;
+}
+.sitemap-description {
+    flex: 0 0 50%;
+}
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.rainbow-text {
+            font-weight: bold;
+            background: -webkit-gradient(linear, left top, right top, from(#cb1333), color-stop(#de45c1), color-stop(#b96be2), color-stop(#84a9e0), color-stop(#23d43b), color-stop(#d0bb08), to(#eb6d17));
+            background: -webkit-linear-gradient(left, #cb1333, #de45c1, #b96be2, #84a9e0, #23d43b, #d0bb08, #eb6d17);
+            background: linear-gradient(90deg, #cb1333, #de45c1, #b96be2, #84a9e0, #23d43b, #d0bb08, #eb6d17);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            display: inline-block;
+        }
+</style>
+</head>
+<body>
+    <h1>Sitemap</h1>
+    <div class="sitemap">
+        <div class="sitemap-item">
+            <a href="https://www.benjamintjoa.nl/" class="sitemap-link"><div class="rainbow-text">https://www.benjamintjoa.nl/</div></a>
+            <span class="sitemap-description">Hoofdpagina.</span>
+        </div>
+        <div class="sitemap-item">
+            <a href="https://agenda.benjamintjoa.nl/" class="sitemap-link">https://agenda.benjamintjoa.nl/</a>
+            <span class="sitemap-description">Gestopte agenda.</span>
+        </div>
+        <div class="sitemap-item">
+            <a href="https://link.benjamintjoa.nl/" class="sitemap-link">https://link.benjamintjoa.nl/</a>
+            <span class="sitemap-description">Linkprogramma.</span>
+        </div>
+        <div class="sitemap-item">
+            <a href="https://sitemap.benjamintjoa.nl/" class="sitemap-link">https://sitemap.benjamintjoa.nl/</a>
+            <span class="sitemap-description">Sitemap.</span>
+        </div>
+    </div>
+</body>
+</html>
