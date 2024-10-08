@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Sitemap</title>
+<link rel="icon" href="/images/ico.ico" type="image/x-icon">
 <style>
 body {
     margin: 0;
@@ -29,20 +30,23 @@ body {
 .sitemap-description {
     flex: 0 0 50%;
 }
+.subpage {
+    margin-left: 40px;
+}
 h1 {
     font-size: 24px;
     margin-bottom: 20px;
 }
 .rainbow-text {
-            font-weight: bold;
-            background: -webkit-gradient(linear, left top, right top, from(#cb1333), color-stop(#de45c1), color-stop(#b96be2), color-stop(#84a9e0), color-stop(#23d43b), color-stop(#d0bb08), to(#eb6d17));
-            background: -webkit-linear-gradient(left, #cb1333, #de45c1, #b96be2, #84a9e0, #23d43b, #d0bb08, #eb6d17);
-            background: linear-gradient(90deg, #cb1333, #de45c1, #b96be2, #84a9e0, #23d43b, #d0bb08, #eb6d17);
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;
-            display: inline-block;
-        }
+    font-weight: bold;
+    background: -webkit-gradient(linear, left top, right top, from(#cb1333), color-stop(#de45c1), color-stop(#b96be2), color-stop(#84a9e0), color-stop(#23d43b), color-stop(#d0bb08), to(#eb6d17));
+    background: -webkit-linear-gradient(left, #cb1333, #de45c1, #b96be2, #84a9e0, #23d43b, #d0bb08, #eb6d17);
+    background: linear-gradient(90deg, #cb1333, #de45c1, #b96be2, #84a9e0, #23d43b, #d0bb08, #eb6d17);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
 </style>
 </head>
 <body>
@@ -56,14 +60,51 @@ h1 {
             <a href="https://agenda.benjamintjoa.nl/" class="sitemap-link">https://agenda.benjamintjoa.nl/</a>
             <span class="sitemap-description">Schoolagenda.</span>
         </div>
+        <div class="sitemap-item subpage">
+            <a href="https://agenda.benjamintjoa.nl/kansen" class="sitemap-link">https://agenda.benjamintjoa.nl/kansen</a>
+            <span class="sitemap-description">Kansen van de kleuren.</span>
+        </div>
         <div class="sitemap-item">
             <a href="https://link.benjamintjoa.nl/" class="sitemap-link">https://link.benjamintjoa.nl/</a>
             <span class="sitemap-description">Linkprogramma.</span>
+        </div>
+        <div class="sitemap-item subpage">
+            <a href="https://link.benjamintjoa.nl/aardrijkskunde" class="sitemap-link">https://link.benjamintjoa.nl/aardrijkskunde</a>
+            <span class="sitemap-description">Online aardrijkskunde</span>
+        </div>
+        <div class="sitemap-item subpage">
+            <a href="https://link.benjamintjoa.nl/agenda" class="sitemap-link">https://link.benjamintjoa.nl/agenda</a>
+            <span class="sitemap-description">agenda.benjamintjoa.nl.</span>
+        </div>
+        <div class="sitemap-item subpage">
+            <a href="https://link.benjamintjoa.nl/jaaragenda" class="sitemap-link">https://link.benjamintjoa.nl/jaaragenda</a>
+            <span class="sitemap-description">Jaaragenda Hageveld.</span>
+        </div>
+        <div class="sitemap-item subpage">
+            <a href="https://link.benjamintjoa.nl/muziek" class="sitemap-link">https://link.benjamintjoa.nl/muziek</a>
+            <span class="sitemap-description">Online muziek.</span>
+        </div>
+        <div class="sitemap-item subpage">
+            <a href="https://link.benjamintjoa.nl/studygo" class="sitemap-link">https://link.benjamintjoa.nl/studygo</a>
+            <span class="sitemap-description">Studygo groep 2E.</span>
+        </div>
+        <div class="sitemap-item subpage">
+            <a href="https://link.benjamintjoa.nl/zermelo" class="sitemap-link">https://link.benjamintjoa.nl/zermelo</a>
+            <span class="sitemap-description">Zermelo Hageveld.</span>
         </div>
         <div class="sitemap-item">
             <a href="https://sitemap.benjamintjoa.nl/" class="sitemap-link">https://sitemap.benjamintjoa.nl/</a>
             <span class="sitemap-description">Sitemap.</span>
         </div>
     </div>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RV89ZCVJNK"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-RV89ZCVJNK');
+    </script>
 </body>
 </html>
